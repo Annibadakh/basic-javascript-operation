@@ -1,0 +1,31 @@
+body{
+    margin: 20px;
+    padding: 0px;
+    text-align: center;
+}
+
+#btn{
+    padding: 5px;
+    font-size: 15px;
+
+}
+p{
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+
+.box{
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.box button{
+    height: 40px;
+    width: 40px;
+    font-size: 20px;
+}
